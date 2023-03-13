@@ -23,7 +23,7 @@ export const NoteCard = ({
           <div className="collapse-title text-xl font-bold">{note.title}</div>
 
           <div className="collape-content">
-            <article className="pros lg:prose-xl">
+            <article className="prose lg:prose-xl">
               <ReactMarkdown>{note.content}</ReactMarkdown>
             </article>
           </div>
